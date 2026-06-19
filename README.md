@@ -9,13 +9,6 @@ Automatically detects the fishing bite sound and reels in/recasts for you, so yo
 - Minecraft Java Edition
 - Python 3.x
 
-## Setup
-
-```bash
-pip install -r requirements.txt
-python main.py
-```
-
 Press **X** to stop the bot.
 
 ## Finding your threshold
