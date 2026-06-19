@@ -4,12 +4,11 @@ Automatically detects the fishing bite sound and reels in/recasts for you, so yo
 
 > **Windows only** — relies on WASAPI loopback audio capture.
 
+
 ## Requirements
 
 - Minecraft Java Edition
 - Python 3.x
-
-Press **X** to stop the bot.
 
 ## Finding your threshold
 
@@ -30,6 +29,7 @@ Since 1.16, the fishing mechanic requires the bobber to be surrounded by water *
 1. Captures your default audio output via a WASAPI loopback device
 2. Continuously monitors the last 200ms of audio for a volume peak above the threshold
 3. When a bite is detected, double right-clicks to reel in and recast
+4. Press **X** to stop the bot.
 
 ## Notes
 
